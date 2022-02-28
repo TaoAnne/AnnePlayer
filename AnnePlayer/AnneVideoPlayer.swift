@@ -128,9 +128,9 @@ class AnneVideoPlayerView: UIView {
         set{
             
             if newValue, self.isCanBackgroundPlay{
-                self.playerLayer.player = nil
+                self.player = nil
             }else{
-                self.playerLayer.player = self.keepingPlayer
+                self.player = self.keepingPlayer
                 self.play()
             }
         }
@@ -430,17 +430,16 @@ extension AnneVideoPlayerView{
     
     func pause() {
         self.isCalcurateCurrentTime = false
-        rate = 0
+        self.rate = 0
     }
     
     func stop() {
-        currentTime = 0
-        pause()
+        self.currentTime = 0
+        self.pause()
     }
-    
 
     func playFromBeginning() {
-        self.player?.seek(to: CMTime.zero)
+        self.currentTime = 0
         self.player?.play()
     }
 }

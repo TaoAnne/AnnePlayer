@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B63AAB3F27CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */; };
 		B63AAB4027CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */; };
-		B63AAB4127CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */; };
 		B65025AA27C88E5400B07851 /* AnnePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65025A927C88E5400B07851 /* AnnePlayerTests.swift */; };
 		B65025AB27C88E5400B07851 /* AnnePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A61C8627C74D66009FAB3E /* AnnePlayer.framework */; platformFilter = ios; };
 		B65025F227C88F9E00B07851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65025F127C88F9E00B07851 /* AppDelegate.swift */; };
@@ -267,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63AAB4127CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */,
 				B65025F627C88F9E00B07851 /* ViewController.swift in Sources */,
 				B65025F227C88F9E00B07851 /* AppDelegate.swift in Sources */,
 			);
