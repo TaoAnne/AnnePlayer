@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63AAB3F27CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */; };
+		B63AAB4027CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */; };
+		B63AAB4127CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */; };
+		B65025AA27C88E5400B07851 /* AnnePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65025A927C88E5400B07851 /* AnnePlayerTests.swift */; };
+		B65025AB27C88E5400B07851 /* AnnePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A61C8627C74D66009FAB3E /* AnnePlayer.framework */; platformFilter = ios; };
+		B65025F227C88F9E00B07851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65025F127C88F9E00B07851 /* AppDelegate.swift */; };
+		B65025F627C88F9E00B07851 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65025F527C88F9E00B07851 /* ViewController.swift */; };
+		B65025FB27C88F9F00B07851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65025FA27C88F9F00B07851 /* Assets.xcassets */; };
+		B65025FE27C88F9F00B07851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65025FC27C88F9F00B07851 /* LaunchScreen.storyboard */; };
 		B6A61C8A27C74D66009FAB3E /* AnnePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A61C8927C74D66009FAB3E /* AnnePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B65025AC27C88E5400B07851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A61C7D27C74D66009FAB3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A61C8527C74D66009FAB3E;
+			remoteInfo = AnnePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnneVideoPlayer.swift; sourceTree = "<group>"; };
+		B65025A727C88E5300B07851 /* AnnePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65025A927C88E5400B07851 /* AnnePlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnePlayerTests.swift; sourceTree = "<group>"; };
+		B65025EF27C88F9E00B07851 /* AnnePlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnePlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65025F127C88F9E00B07851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B65025F527C88F9E00B07851 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B65025FA27C88F9F00B07851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65025FD27C88F9F00B07851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65025FF27C88F9F00B07851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6A61C8627C74D66009FAB3E /* AnnePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnnePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A61C8927C74D66009FAB3E /* AnnePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnePlayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B65025A427C88E5300B07851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65025AB27C88E5400B07851 /* AnnePlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65025EC27C88F9E00B07851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6A61C8327C74D66009FAB3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -26,10 +69,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B65025A827C88E5300B07851 /* AnnePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B65025A927C88E5400B07851 /* AnnePlayerTests.swift */,
+			);
+			path = AnnePlayerTests;
+			sourceTree = "<group>";
+		};
+		B65025F027C88F9E00B07851 /* AnnePlayerExample */ = {
+			isa = PBXGroup;
+			children = (
+				B65025F127C88F9E00B07851 /* AppDelegate.swift */,
+				B65025F527C88F9E00B07851 /* ViewController.swift */,
+				B65025FA27C88F9F00B07851 /* Assets.xcassets */,
+				B65025FC27C88F9F00B07851 /* LaunchScreen.storyboard */,
+				B65025FF27C88F9F00B07851 /* Info.plist */,
+			);
+			path = AnnePlayerExample;
+			sourceTree = "<group>";
+		};
 		B6A61C7C27C74D66009FAB3E = {
 			isa = PBXGroup;
 			children = (
 				B6A61C8827C74D66009FAB3E /* AnnePlayer */,
+				B65025A827C88E5300B07851 /* AnnePlayerTests */,
+				B65025F027C88F9E00B07851 /* AnnePlayerExample */,
 				B6A61C8727C74D66009FAB3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				B6A61C8627C74D66009FAB3E /* AnnePlayer.framework */,
+				B65025A727C88E5300B07851 /* AnnePlayerTests.xctest */,
+				B65025EF27C88F9E00B07851 /* AnnePlayerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -45,6 +112,7 @@
 		B6A61C8827C74D66009FAB3E /* AnnePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B63AAB3E27CC551E00FA88AA /* AnneVideoPlayer.swift */,
 				B6A61C8927C74D66009FAB3E /* AnnePlayer.h */,
 			);
 			path = AnnePlayer;
@@ -64,6 +132,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B65025A627C88E5300B07851 /* AnnePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65025B027C88E5400B07851 /* Build configuration list for PBXNativeTarget "AnnePlayerTests" */;
+			buildPhases = (
+				B65025A327C88E5300B07851 /* Sources */,
+				B65025A427C88E5300B07851 /* Frameworks */,
+				B65025A527C88E5300B07851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65025AD27C88E5400B07851 /* PBXTargetDependency */,
+			);
+			name = AnnePlayerTests;
+			productName = AnnePlayerTests;
+			productReference = B65025A727C88E5300B07851 /* AnnePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B65025EE27C88F9E00B07851 /* AnnePlayerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B650260027C88F9F00B07851 /* Build configuration list for PBXNativeTarget "AnnePlayerExample" */;
+			buildPhases = (
+				B65025EB27C88F9E00B07851 /* Sources */,
+				B65025EC27C88F9E00B07851 /* Frameworks */,
+				B65025ED27C88F9E00B07851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnnePlayerExample;
+			productName = AnnePlayerExample;
+			productReference = B65025EF27C88F9E00B07851 /* AnnePlayerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B6A61C8527C74D66009FAB3E /* AnnePlayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6A61C8D27C74D66009FAB3E /* Build configuration list for PBXNativeTarget "AnnePlayer" */;
@@ -89,10 +192,18 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					B65025A627C88E5300B07851 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B65025EE27C88F9E00B07851 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					B6A61C8527C74D66009FAB3E = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -110,11 +221,29 @@
 			projectRoot = "";
 			targets = (
 				B6A61C8527C74D66009FAB3E /* AnnePlayer */,
+				B65025A627C88E5300B07851 /* AnnePlayerTests */,
+				B65025EE27C88F9E00B07851 /* AnnePlayerExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B65025A527C88E5300B07851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65025ED27C88F9E00B07851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65025FE27C88F9F00B07851 /* LaunchScreen.storyboard in Resources */,
+				B65025FB27C88F9F00B07851 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6A61C8427C74D66009FAB3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,16 +254,144 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B65025A327C88E5300B07851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63AAB4027CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */,
+				B65025AA27C88E5400B07851 /* AnnePlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65025EB27C88F9E00B07851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63AAB4127CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */,
+				B65025F627C88F9E00B07851 /* ViewController.swift in Sources */,
+				B65025F227C88F9E00B07851 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6A61C8227C74D66009FAB3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63AAB3F27CC551E00FA88AA /* AnneVideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B65025AD27C88E5400B07851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = B6A61C8527C74D66009FAB3E /* AnnePlayer */;
+			targetProxy = B65025AC27C88E5400B07851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B65025FC27C88F9F00B07851 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65025FD27C88F9F00B07851 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		B65025AE27C88E5400B07851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM26SG4QWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chando.AnnePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B65025AF27C88E5400B07851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM26SG4QWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chando.AnnePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B650260127C88F9F00B07851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM26SG4QWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnnePlayerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chando.AnnePlayerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B650260227C88F9F00B07851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM26SG4QWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnnePlayerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chando.AnnePlayerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B6A61C8B27C74D66009FAB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -260,6 +517,7 @@
 		B6A61C8E27C74D66009FAB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -270,6 +528,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -279,7 +538,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chando.AnnePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +549,7 @@
 		B6A61C8F27C74D66009FAB3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -298,6 +560,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +570,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chando.AnnePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +580,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B65025B027C88E5400B07851 /* Build configuration list for PBXNativeTarget "AnnePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65025AE27C88E5400B07851 /* Debug */,
+				B65025AF27C88E5400B07851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B650260027C88F9F00B07851 /* Build configuration list for PBXNativeTarget "AnnePlayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B650260127C88F9F00B07851 /* Debug */,
+				B650260227C88F9F00B07851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B6A61C8027C74D66009FAB3E /* Build configuration list for PBXProject "AnnePlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
